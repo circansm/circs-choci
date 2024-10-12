@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans          &kp UP_ARROW  &kp TAB    &kp LEFT_SHIFT  &kp RCTRL  &trans
-&trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N0       &kp LEFT        &kp DOWN      &kp RIGHT  &kp RCTRL       &trans     &trans
-&trans  &mo 3   &lt 3 N7      &kp N8        &kp N9        &kp PLUS     &kp UNDERSCORE  &kp SQT       &trans     &trans          &trans     &trans
-                              &kp LEFT_GUI  &trans        &trans       &trans          &trans        &trans
+&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans          &kp UP_ARROW   &kp TAB    &kp LEFT_SHIFT  &kp RCTRL         &trans
+&trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N0       &kp LEFT        &kp DOWN       &kp RIGHT  &kp RCTRL       &kp SINGLE_QUOTE  &kp SEMI
+&trans  &mo 3   &lt 3 N7      &kp N8        &kp N9        &kp PLUS     &kp UNDERSCORE  &kp BACKSLASH  &trans     &trans          &trans            &trans
+                              &kp LEFT_GUI  &trans        &trans       &trans          &trans         &trans
             >;
         };
 
@@ -51,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp TILDE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR        &kp PRCNT            &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR   &kp RPAR   &trans
-&trans  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS  &kp EQUAL  &kp HASH      &kp RBKT   &kp MINUS  &kp EQUAL
-&trans  &trans       &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION   &kp QUESTION         &kp COLON  &kp PIPE   &kp PLUS      &kp MINUS  &kp PIPE   &trans
+&trans  &kp TILDE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR        &kp PRCNT            &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR   &kp RPAR       &trans
+&trans  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS  &kp EQUAL  &kp HASH      &kp RBKT   &kp MINUS      &kp EQUAL
+&trans  &trans       &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION   &kp QUESTION         &kp COLON  &kp PIPE   &kp PLUS      &kp MINUS  &kp BACKSLASH  &kp SEMI
                                            &trans                 &trans            &trans               &trans     &trans     &trans
             >;
         };
